@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff1fb;
+}
+
+::selection {
+  background: #f8c84c;
+  color: #2b0b55;
+}
+
+#why-choose-us .text-velvet {
+  color: #fff7d6;
+}
+
+#why-choose-us .text-slate-700 {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+#why-choose-us .bg-white\/70 {
+  background: rgba(255, 255, 255, 0.14);
+}
